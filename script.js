@@ -1,15 +1,19 @@
 $(document).ready(function() {
-    console.log("testing testing 123");
+    //example showing fucntion decleration
+    var myTest = function() {
+        console.log("testing testing 123");
+        return "you can return whatever you want from any function";
+    };
 
     //JSONObject to hold all the content
     var myChar = {
-        'caracteristics' : {
+        'characteristics' : {
             'characterName' : "",
             'homeWord' : "",
             'divination' : "",
             'gender' : "",
             'skinColor' : "",
-            'playerName' : "",
+            'playerName' : "Alex",
             'careerPath' : "",
             'quirk' : "",
             'build' : "",
@@ -17,10 +21,7 @@ $(document).ready(function() {
             'height' : "",
             'weight' : "",
             'eyeColor' : "",
-            'age' : 0,
-        },
-        'caracteristics' : {
-
+            'age' : 0
         },
         'skills' : {
 
@@ -59,7 +60,18 @@ $(document).ready(function() {
 
         },
         'wealth' : {
-            
+
         }
-    };
+    },
+    lookHowDumb = "this looks!";
+
+
+
+    //set some stuff as an example
+    myChar.characteristics.characterName = "Jimbo Johnson";
+    myChar.wealth.throwns = 10000000;
+
+    //the . is to select a class, just look this stuff up
+    $(".characterName").text("Character Name: " + myChar.characteristics.characterName);
+    $(".playerName").text("Player Name: " + myChar.characteristics.playerName);
 });
