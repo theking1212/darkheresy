@@ -35,7 +35,7 @@ $(document).ready(function() {
         'meleeWeapons' : {
 
         },
-        'missleWeapns' : {
+        'missileWeapons' : {
 
         },
         'psychicPowers' : {
@@ -53,10 +53,10 @@ $(document).ready(function() {
         'gear' : {
 
         },
-        'insanitly' : {
+        'insanity' : {
             'points': 0
         },
-        'curruption' : {
+        'corruption' : {
 
         },
         'wealth' : {

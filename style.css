@@ -14,17 +14,32 @@ body{
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 17px;
 }
-#tabs{
-	text-align: center;
+#mainContainer{
+	width:1600px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: rgba(0,0,0,0.7);
-	width: 50%;
+
+}
+#tabs{
+	background-color: rgba(0,0,0,0.7);	
+	display: inline-block;
+	float:left;
+}
+#tabChar{
+	position: relative;
+	float: left;
+	padding: 20px;
+	border-top: 2px solid;
+	border-left: 2px solid;
+}
+#edit{
+	float: left;
+	position: relative;
+	padding: 20px;
+	border: 2px solid;
 
 }
 #containerPink{
-	margin-left: auto;
-	margin-right: auto;
 	background-color: rgba(0,0,0,0.7);
 	width: 1600px;
 	overflow: hidden;
@@ -36,7 +51,7 @@ body{
 #blue{
 	width: 960px;
 	position: relative;
-	float:left;
+	float: left;
 }
 #greenLeft{
 	width: 384px;
