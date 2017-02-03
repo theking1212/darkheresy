@@ -12,7 +12,7 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 17px;
+	font-size: 15px;
 }
 #mainContainer{
 	width:1600px;
@@ -47,6 +47,7 @@ body{
 #red{
 	width: 960px;
 	position: relative;
+	float: left;
 }
 #blue{
 	width: 960px;
@@ -100,25 +101,32 @@ body{
 #pinkSouther{
 	width:384px;
 	position: relative;
-	text-align: center;
+	text-align: left;
 
 }
 #pinkSouther2{
 	width:384px;
 	position: relative;
+	text-align: left;
+}
+#purpleContainer{
+	position: absolute;
 }
 #purpleLeft{
 	width:320px;
-	position: absolute;
+	position: relative;
 	margin-left:960px;
+	float:left;
 }
 #pinkUp{
 	width:320px;
 	position: relative;
+	text-align: center;
 }
 #pinkDown{
 	width:320px;
 	position: relative;
+	text-align: center;
 }
 #PinkDownDown{
 	width:320px;
@@ -139,15 +147,58 @@ body{
 	position: relative;
 	float: right;
 }
+#armorImg{
+	position: absolute;
+	z-index: -1;
+}
+#head{
+	position: absolute;
+	margin-left: 35%;
+	margin-top: 12%;
+	border:2px solid;
+}
+#body{
+	position: absolute;
+	margin-left: 35%;
+	margin-top: 40%;
+	border:2px solid;
+}
+#rightArm{
+	position: absolute;
+	margin-left: 64%;
+	margin-top: 50%;
+	border:2px solid;
+}
+#leftArm{
+	position: absolute;
+	margin-top: 50%;
+	border:2px solid;
+}
+#rightLeg{
+	position: absolute;
+	margin-left: 55%;
+	margin-top: 98%;
+	border:2px solid;
+}
+#leftLeg{
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 98%;
+	border:2px solid;
+}
 #pinkUpper{
 	width:320px;
 	position: relative;
 }
 #pinkLower{
-	width:320px;
-	position: relative;
+	width: 320px;
+	position: absolute;
+	margin-top: 446px;
+	text-align: center;
 }
 #lightGreenLower{
 	width:320px;
-	position: relative;
+	position: absolute;
+	margin-top: 800px;
+	text-align: center;
 }
