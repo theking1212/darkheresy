@@ -1,0 +1,138 @@
+.table{	display:block; }
+.row{ display: table-row; }
+.cell{ 
+	display: table-cell;	
+	padding: .1cm .1cm .1cm .1cm; 
+}
+ul{list-style-type:none; padding:0; margin:0;}
+body{
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	color: white;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 17px;
+}
+#tabs{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0,0,0,0.7);
+	width: 50%;
+
+}
+#containerPink{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0,0,0,0.7);
+	width: 1600px;
+	overflow: hidden;
+}
+#red{
+	width: 960px;
+	position: relative;
+}
+#blue{
+	width: 960px;
+	position: relative;
+	float:left;
+}
+#greenLeft{
+	width: 384px;
+	position: relative;
+	float: left;
+	text-align: center;
+
+}
+#pinkNorth{
+	width:384px;
+	position: relative;
+}
+#orange{
+	position: absolute;
+	width:192px;
+	left: 384px;
+}
+#greenMid{
+	width:192px;
+	position: relative;
+	float:left;
+	text-align: center;
+
+}
+#greenSouth{
+	width:192px;
+	position: relative;
+	float:left;
+
+}
+#greenRight{
+	width:384px;
+	position: relative;
+	float: right;
+	text-align: center;
+}
+#pinkNorth2{
+	width:384px;
+	position: relative;
+
+}
+#pinkSouth2{
+	width:384px;
+	position: relative;
+}
+#pinkSouther{
+	width:384px;
+	position: relative;
+	text-align: center;
+
+}
+#pinkSouther2{
+	width:384px;
+	position: relative;
+}
+#purpleLeft{
+	width:320px;
+	position: absolute;
+	margin-left:960px;
+}
+#pinkUp{
+	width:320px;
+	position: relative;
+}
+#pinkDown{
+	width:320px;
+	position: relative;
+}
+#PinkDownDown{
+	width:320px;
+	position: relative;
+}
+#lightGreenLeft{
+	width:160px;
+	position: relative;
+	float: left;
+}
+#lightGreenRight{
+	width:160px;
+	position: relative;
+	float:right;
+}
+#purpleRight{
+	width:320px;
+	position: relative;
+	float: right;
+}
+#pinkUpper{
+	width:320px;
+	position: relative;
+}
+#pinkLower{
+	width:320px;
+	position: relative;
+}
+#lightGreenLower{
+	width:320px;
+	position: relative;
+}
